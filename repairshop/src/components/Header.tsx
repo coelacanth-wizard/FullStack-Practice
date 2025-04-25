@@ -1,6 +1,7 @@
-import { Home, File, UsersRound, HomeIcon } from "lucide-react";
+import { HomeIcon, File, UsersRound } from "lucide-react";
 import Link from "next/link";
 import { NavButton } from "@/components/NavButton";
+import { ModeToggle } from "@/components/ModeToggle";
 
 
 export function Header() {
@@ -18,8 +19,10 @@ export function Header() {
                 </div>
 
                 <div className="flex items-center">
-                <NavButton href="/tickets" label="Tickets" icon={HomeIcon}/>
-                <NavButton href="/customers" label="Customers" icon={HomeIcon}/>
+                <NavButton href="/tickets" label="Tickets" icon={File}/>
+                <NavButton href="/customers" label="Customers" icon={UsersRound}/>
+
+                <ModeToggle/>
 
                 </div>
             </div>
