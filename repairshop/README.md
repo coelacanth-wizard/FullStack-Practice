@@ -1,3 +1,5 @@
+Following along to this video: https://youtu.be/djDgTYrFMAY?si=05IHMswjcfkmVvgL&t=3292
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
